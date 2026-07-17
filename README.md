@@ -194,46 +194,25 @@ The project contains SQL scripts for:
 
 ## Repository Structure
 
+```text
 enterprise-sales-operations-business-analysis-platform/
 │
 ├── README.md
 ├── LICENSE
 ├── .gitignore
 │
-├── dataset/
-│   ├── Raw_Data.xlsx
-│   ├── Cleaned_Data.xlsx
-│   └── Data_Dictionary.xlsx
-│
-├── sql/
-│   ├── 01_database_setup.sql
-│   ├── 02_data_validation.sql
-│   ├── 03_kpi_queries.sql
-│   ├── 04_business_analysis_queries.sql
-│   └── 05_looker_studio_queries.sql
-│
-├── dashboards/
-│   ├── Executive_KPI_Dashboard.png
-│   ├── Sales_Performance_Dashboard.png
-│   ├── Product_Performance_Dashboard.png
-│   └── FunctionalTesting.png 
-│
-├── documentation/
-│   ├── BRD.docx
-│   ├── Project_Charter.docx
-│   ├── Sprint_Documents/
-│   ├── UAT/
-│   └── Release/
-│
 ├── architecture/
-│   ├── Solution_Architecture.png
-│   └── Workflow_Diagram.png
+├── dataset/
+├── documentation/
+├── exported_query_results/
+├── screenshots/
+│   ├── confluence/
+│   ├── jira/
+│   ├── lookerstudio/
+│   └── sql/
 │
-└── screenshots/
-    ├── Jira/
-    ├── Confluence/
-    ├── SQL/
-    └── LookerStudio/
+└── sql/
+```
 
 ## Skills Demonstrated
 
