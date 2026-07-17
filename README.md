@@ -97,6 +97,7 @@ The solution architecture illustrates the end-to-end data flow from business dat
 
 ## Business Workflow Diagram
 
+```text
 Business Need
       │
       ▼
@@ -125,6 +126,7 @@ Deployment & Release
       │
       ▼
 Business Decision Making
+```
 
 The business workflow represents the project lifecycle, beginning with business requirements, followed by requirement analysis, data preparation, SQL analytics, dashboard development, testing, deployment, and business decision-making.
 
